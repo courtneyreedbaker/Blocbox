@@ -8,12 +8,12 @@
 
    <!-- Google Fonts -->
    <link href='https://fonts.googleapis.com/css?family=Catamaran:400,100,200,300,500,600,700,800,900|Cabin:400,500,600,700' rel='stylesheet' type='text/css'>
-    
+
  <!-- CSS -->
  <link rel="stylesheet" href="css/normalize.css">
  <link rel="stylesheet" href="css/style.css">
  <link rel="stylesheet" href="css/font-awesome.css">
- 
+ <link rel="stylesheet" href="animate.min.css">
  </head>
 
  <!-- Hero -->
@@ -31,113 +31,123 @@
      </div>
    </nav>
    <div class="container hero">
-     <h1>Save, share and collaborate.</h1>
+     <h1 class="animated fadeIn">Save, share and collaborate.</h1>
      <p>Blocbox lets you collect and sort information.<br/>Create simple notes, store images, and add links.</p>
      <a href="signup.html" class="btn">Start Your Free Trial!</a>
-     <img src="images/BlocboxDashboardBlockSketch_simplecopy.png" alt="Blocbox" />
+     <img src="images/BlocboxDashboardBlocSketch.png" alt="Blocbox" />
    </div>
  </header>
 
- <!--Benefits Section-->
- <main role="main">
-   <section class="benefits">
-     <ul class="container">
-       <li class="one-third">
-         <h2>Create notes</h2>
-         <p>Using Markdown, you can create simple text-based documents to save and share. You can collaborate with others to write and edit content.</p>
-       </li>
-       <li class="one-third">
-         <h2>Save images</h2>
-         <p>Are there images you find interesting enough to save? Now you have a way to organize and store those within blocbox.</p>
-       </li>
-       <li class="one-third">
-         <h2>Add links</h2>
-         <p>Forget bookmarking sites in your browser. With blocbox, you can add links, group them and view them from any computer.</p>
-       </li>
-     </ul>
-   </section>
+ <!--Benefits Section--> 
+ <main role="main"> 
+   <section class="benefits"> 
+     <ul class="container"> 
+       <li class="one-third"> 
+         <i class="fa fa-file-o"></i> 
+         <h2>Create notes</h2> 
+           <p>Using Markdown, you can create simple text-based documents to save and share. You can collaborate with others to write and edit content.</p> 
+       </li> 
+       <li class="one-third"> 
+       <i class="fa fa-picture-o"></i> 
+       <h2>Save images</h2> 
+         <p>Are there images you find interesting enough to save? Now you have a way to organize and store those within blocbox.</p> </li> 
+      <li class="one-third"> 
+      <i class="fa fa-link"></i> 
+      <h2>Add links</h2> 
+      <p>Forget bookmarking sites in your browser. With blocbox, you can add links, group them and view them from any computer.</p> 
+      </li> 
+      </ul> 
+      </section> 
+<!-- Pricing --> 
+<section class="pricing"> 
+<div class="container"> 
+  <h2>How much does Blocbox cost?</h2> 
+    <p>We have many options to fit your needs. It's free to try for 30 days*, and you can always change your plan once you signed up. <br/>
+    Here are the different features of each plan:</p> 
+</div> 
+<ul class="container"> 
+<li class="one-third"> 
+<div class="box"> 
+    <h3>Casual</h3> 
+    <h4>Free</h4> 
+  <ul> 
+    <li>Up to 5 boxes</li> 
+    <li>Up to 10 collaborators</li> 
+    <li><strong>2GB</strong> of storage</li> 
+  </ul> 
+  <a href="signup.html" class="btn">Start Your Free Trial!</a> 
+</div> 
+</li> 
+<li class="one-third"> 
+<div class="box middle"> 
+  <h3>Professional</h3> 
+  <h4><span>$</span>5 <span class="month">/month</span></h4> 
+  <ul> 
+    <li>Unlimited boxes</li> 
+    <li>Up to 20 collaborators</li> 
+    <li><strong>5GB</strong> of storage</li> 
+    <li>Real-time collaboration</li> 
+  </ul> 
+  <a href="signup.html" class="btn">Start Your Free Trial!</a> 
+</div> 
+</li> 
+  <li class="one-third"> 
+  <div class="box"> 
+    <h3>Expert</h3> 
+    <h4><span>$</span>10 <span class="month">/month</span></h4> 
+      <ul> 
+        <li>Unlimited boxes</li> 
+        <li>Unlimited collaborators</li> 
+        <li><strong>Unlimited</strong> storage</li> 
+        <li>Real-time collaboration</li> 
+      </ul> 
+      <a href="signup.html" class="btn">Start Your Free Trial!</a> 
+    </div>
+    <div class="container"> 
+    <p class="small">*We will not collect your credit card information until your 30-day trial has ended.</p> 
+    </div> 
+    </li> 
+    </ul> 
+    </section> 
 
- <!-- Pricing -->
- <section class="pricing">
-   <div class="container">
-     <h2>How much does Blocbox cost?</h2>
-     <p>We have many options to fit your needs. It's free to try for 30 days*, and you can always change your plan once you signed up. <br/>Here are the different features of each plan:</p>
-   </div>
-   <ul class="container">
-     <li class="one-third">
-       <div class="box">
-         <h3>Casual</h3>
-         <h4>Free</h4>
-         <ul>
-           <li>Up to 5 boxes</li>
-           <li>Up to 10 collaborators</li>
-           <li><strong>2GB</strong> of storage</li>
-         </ul>
-         <a href="signup.html" class="btn">Start Your Free Trial!</a>
-       </div>
-     </li>
-         <li class="one-third">
-      <div class="box middle">
-        <h3>Professional</h3>
-        <h4><span>$</span>5 <span class="month">/month</span></h4>
-        <ul>
-          <li>Unlimited boxes</li>
-          <li>Up to 20 collaborators</li>
-          <li><strong>5GB</strong> of storage</li>
-          <li>Real-time collaboration</li>
-        </ul>
-        <a href="signup.html" class="btn">Start Your Free Trial!</a>
-      </div>
-    </li>
-    <li class="one-third">
-      <div class="box">
-        <h3>Expert</h3>
-        <h4><span>$</span>10 <span class="month">/month</span></h4>
-        <ul>
-          <li>Unlimited boxes</li>
-          <li>Unlimited collaborators</li>
-          <li><strong>Unlimited</strong> storage</li>
-          <li>Real-time collaboration</li>
-        </ul>
-        <a href="signup.html" class="btn">Start Your Free Trial!</a>
-      </div>
-    </li>
-   </ul>
- </section>
-
- <!-- Testimonials -->
- <section class="testimonials">
-   <div class="container">
-     <h2>Who uses Blocbox?</h2>
-     <p>Blocbox has more than 100,000 satisfied users storing and collaborating<br/> with teams across the world. Here's what a few have to say:</p>
-   </div>
-   <ul class="container">
-     <li class="one-fourth">
-       <blockquote>"I have been looking everywhere for a product that would allow me work on the go. I am so glad I finally found Blocbox."
-       </blockquote>
-       <img src="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg" alt="avatar">
-       <p class="name"><strong>Jenna</strong><br/>Freelance Designer (Denver, Colorado)</p>
-     </li>
-     <li class="one-fourth">
-    <blockquote>"As a movie producer, I love the collaborative aspects of Blocbox. It's so much easier to bounce ideas back and forth."
-    </blockquote>
-    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/kurafire/128.jpg" alt="avatar">
-    <p class="name"><strong>Brad</strong><br/>Movie Producer (Los Angeles, CA)</p>
-  </li>
-  <li class="one-fourth">
-    <blockquote>"My adventure blog always had to be put on hold because I was unable to work on it when there was no internet. Blocbox helps get the job done."
-    </blockquote>
-    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/tonypeterson/128.jpg" alt="avatar">
-    <p class="name"><strong>Steven</strong><br/>Adventure Blogger (Sydney, Australia)</p>
-  </li>
-  <li class="one-fourth">
-    <blockquote>"Living far from my family was hard. It helps so much that we can share pictures, stories, and even do live chats together on Blocbox. It brings a little bit of Bangladesh back to me when I am traveling for work.""
-    </blockquote>
-    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/towhidzaman/128.jpg" alt="avatar">
-    <p class="name"><strong>Adan</strong><br/>Entrepeneur (Jessore, Bangladesh)</p>
-  </li>       
-  </ul>
- </section>
- </main>
- </body>
- </html>
+<!-- Testimonials --> 
+<section class="testimonials"> 
+  <div class="container"> 
+    <h2>Who uses Blocbox?</h2> 
+    <p>Blocbox has more than 100,000 satisfied users storing and collaborating<br/> 
+    with teams across the world. Here's what a few have to say:</p> 
+  </div> 
+  <ul class="container"> 
+  <li class="one-fourth"> 
+    <blockquote>
+      "I have been looking everywhere for a product that would allow me work on the go. I am so glad I finally found Blocbox." 
+    </blockquote> 
+    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/adellecharles/128.jpg" alt="avatar"> 
+    <p class="name"><strong>Jenna</strong><br/>Freelance Designer (Denver, Colorado)</p> 
+  </li> 
+  <li class="one-fourth"> 
+    <blockquote>
+      "As a movie producer, I love the collaborative aspects of Blocbox. It's so much easier to bounce ideas back and forth." 
+    </blockquote> 
+    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/kurafire/128.jpg" alt="avatar"> 
+    <p class="name"><strong>Brad</strong><br/>Movie Producer (Los Angeles, CA)</p> 
+  </li> 
+  <li class="one-fourth"> 
+    <blockquote>
+      "My adventure blog always had to be put on hold because I was unable to work on it when there was no internet. Blocbox helps get the job done." 
+    </blockquote> 
+    <img src="https://s3.amazonaws.com/uifaces/faces/twitter/tonypeterson/128.jpg" alt="avatar"> 
+    <p class="name"><strong>Steven</strong><br/>Adventure Blogger (Sydney, Australia)</p> 
+</li> 
+<li class="one-fourth"> 
+  <blockquote>
+    "Living far from my family was hard. It helps so much that we can share pictures, stories, and even do live chats together on Blocbox. It brings a little bit of Bangladesh back to me when I am traveling for work."" 
+  </blockquote> 
+  <img src="https://s3.amazonaws.com/uifaces/faces/twitter/towhidzaman/128.jpg" alt="avatar"> 
+  <p class="name"><strong>Adan</strong><br/>Entrepeneur (Jessore, Bangladesh)</p> 
+</li> 
+</ul> 
+</section> 
+</main> 
+</body> 
+</html>
