@@ -301,6 +301,7 @@ html, body{
 
  /* FOOTER */
  footer {
+   padding: 24px;
    background-color: #53C1BC;
    background-image: linear-gradient(to top,
       #FFFFFF 0%, #FFFFFF 50%, #53C1BC 50%, #53C1BC 100%);
