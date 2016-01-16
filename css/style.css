@@ -70,6 +70,7 @@ html, body{
    .container {
      width: 1170px;
    }
+}
 .search_box{
     position:absolute;
     left:67%;
@@ -79,7 +80,6 @@ html, body{
             min-width:35%;
             min-height:50%;
 }
-
  /* HEADER */
  header {
    color:#FFFFFF;
