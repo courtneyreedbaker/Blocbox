@@ -11,9 +11,9 @@
 .dropit {
     list-style: none;
 	padding: 0;
-    margin: 15px 0 0;
-    float:right;
-    display:inline-block;
+  margin: 15px 0 0;
+  float:right;
+  display:inline-block;
 }
 .dropit .dropit-trigger { position: relative; }
 .dropit .dropit-submenu {
